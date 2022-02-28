@@ -204,6 +204,7 @@ def create():
     global apic
     global l3out
     global vc
+    global config
     if request.method == 'GET':
        # try:
             
