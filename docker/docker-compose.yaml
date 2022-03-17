@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  nkt:
+    build: .
+    restart: always
+    container_name: nkt 
+    environment:
+      - SOURCE_BRANCH
+
