@@ -7,4 +7,3 @@ services:
     container_name: nkt 
     environment:
       - SOURCE_BRANCH
-
